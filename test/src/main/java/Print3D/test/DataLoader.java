@@ -24,7 +24,6 @@ public class DataLoader implements CommandLineRunner {
         Random random = new Random();
         String[] roles = {"usuario", "creador"};
 
-        // Generar 10 usuarios de prueba
         for (int i = 0; i < 10; i++) {
             Usuario usuario = new Usuario();
             usuario.setRut(faker.idNumber().valid());
